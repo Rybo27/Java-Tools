@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <nav id="navbar">
+      <header>Java Tools</header>
+      <a class="nav-link" href="#Introduction">Introduction</a>
+      <a class="nav-link" href="#If_statements">If statements</a>
+      <a class="nav-link" href="#If-else_statements">If-else statements</a>
+      <a class="nav-link" href="#While_loops">While loops</a>
+      <a class="nav-link" href="#Do-while_loops">Do-while loops</a>
+      <a class="nav-link" href="#For_loops">For loops</a>
+    </nav>
+    <main id="main-doc">
+      <section class="main-section" id="Introduction">
+        <header>Introduction</header>
+        <p>On this page you will learn about plenty of the most useful java tools, that you will need to know for the rest of the course. Here is what you will learn:</p>
+        <ul>
+          <li>If statements</li>
+          <li>If-else statements</li>
+          <li>While loops</li>
+          <li>Do-while loops</li>
+          <li>For loops</li>
+        </ul>
+      </section>
+      <section class="main-section" id="If_statements">
+        <header>If statements</header>
+        <p>The syntax for an if statement looks like this:</p>
+        <pre><code>
+if(boolean statement){
+  more code;
+}
+          </code></pre>
+          <p>This allows for the code inside the loop to only be run if the boolean in the if statement is true.</p>
+      </section>
+      <section class="main-section" id="If-else_statements">
+        <header>If-else statements</header>
+        <p>Building off of the regular if statement is the if-else statement, which has a syntax like this:</p>
+        <pre><code>
+if(boolean statement){
+  more code;
+}else{
+  more code;
+}
+          </code></pre>
+          <p>With the if-else loop, if the boolean in the if statement is false, then the code after the else statement will be run, otherwise it will only run the code after the if statement.</p>
+      </section>
+      <section class="main-section" id="While_loops">
+        <header>While loops</header>
+        <p>A while loop is a loop that will continuously loop over the same code as long as a certain boolean value is true. This is the syntax for a while loop:</p>
+        <pre><code>
+while(boolean statement){
+  more code;
+}  
+        </code></pre>
+        <p>The code inside the loop will only run as long as the boolean statement before hand is checked and has a value of true.</p>
+      </section>
+      <section class="main-section" id="Do-while_loops">
+        <header>Do-while loops</header>
+        <p>Do-while loops are just like normal while loops, except they check whether the boolean statement is true after running the code in the loop. Here is the syntax for a do-while loop:</p>
+        <pre><code>
+do{
+  more code;
+}while(boolean statement);
+          </code></pre>
+          <p>This makes it so that the code inside the loop is run at least once, before checking if it should be run again.</p>
+      </section>
+      <section class="main-section" id="For_loops">
+        <header>For loops</header>
+          <p>A for loop makes loops a lot easier by automatically incrementing a newly created integer and using it to determine when to stop the loop. This is a common syntax for a for loop:</p>
+          <pre><code>
+for(int i = 0; i < n; i++){
+  more code;
+}
+            </code></pre>
+            <p>This for loop makes it so that the newly created integer i equals 0, and the loop will run n times before stopping the loop.</p>
+      </section>
+    </main>
+  </body>
+</html>
